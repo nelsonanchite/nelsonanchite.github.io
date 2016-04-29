@@ -1,0 +1,115 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+.efeito img {
+  margin-top: 0px;
+  -webkit-transition: margin 0.5s ease;
+     -moz-transition: margin 0.5s ease;
+       -o-transition: margin 0.5s ease;
+      -ms-transition: margin 0.5s ease;
+          transition: margin 0.5s ease;
+}
+ 
+.efeito img:hover {
+  margin-top: -10px;
+}
+
+.circulo {
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+}
+
+#banner.section {
+    padding-top: 13%
+}
+
+#banner.btn-large {
+    margin-top: 45px;
+}
+
+#banner h1 {
+    font-weight: 700;
+    /*text-shadow: 1px 1px 2em #f0f0f0;*/
+    margin: 3.1rem 0 -0.32rem 0;
+}
+
+#banner.parallax-container {
+    min-height: 590px;
+}
+
+.banner1 {
+    height: 44.8rem;
+    width: 100%;    
+}
+#banner1.row .col {
+    padding: 0px;
+}
+
+#index-banner {
+    min-height: 632px;
+    max-height: 632px;
+    position: relative;
+    background-color: #2196F3;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  margin-bottom: -22px;
+}
+.row.pagina {
+    margin-bottom: 0px;
+}
